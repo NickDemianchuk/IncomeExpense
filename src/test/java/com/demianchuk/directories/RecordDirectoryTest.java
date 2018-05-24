@@ -93,6 +93,7 @@ public class RecordDirectoryTest {
     }
 
     private void addRecords() {
+
         recordDirectory.addRecord(new Record(Record.Type.Expense, LocalDate.of(2018, 5, 24), 10.5, "Groceries", "Milk and cereal"));
         recordDirectory.addRecord(new Record(Record.Type.Expense, LocalDate.of(2018, 4, 21), 20, "Beauty", "Haircut"));
         recordDirectory.addRecord(new Record(Record.Type.Expense, LocalDate.of(2018, 5, 11), 4.38, "Transportation", "Lyft"));
