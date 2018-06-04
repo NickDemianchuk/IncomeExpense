@@ -55,5 +55,4 @@ public class RecordDirectory {
     public void removeAllRecords() {
         records.clear();
     }
-
 }
