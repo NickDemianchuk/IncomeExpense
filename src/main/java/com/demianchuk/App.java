@@ -6,12 +6,7 @@ import com.demianchuk.models.Record;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
-import java.util.Set;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
