@@ -48,12 +48,12 @@ public class RecordDirectory {
                 .collect(Collectors.toList());
     }
 
+    public List<Record> getAllRecords() {
+        return records;
+    }
 
-
-
-
-
-
-
+    public void removeAllRecords() {
+        records.clear();
+    }
 
 }
