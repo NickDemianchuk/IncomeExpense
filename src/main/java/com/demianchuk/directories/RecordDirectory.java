@@ -52,7 +52,8 @@ public class RecordDirectory {
         return records;
     }
 
-    public void removeAllRecords() {
+    public boolean removeAllRecords() {
         records.clear();
+        return records.isEmpty();
     }
 }
